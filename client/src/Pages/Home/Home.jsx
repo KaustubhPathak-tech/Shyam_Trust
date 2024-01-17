@@ -22,6 +22,7 @@ import init2 from "../../Assets/Images/skilling-init.png";
 import init3 from "../../Assets/Images/health-init.png";
 
 import QR from "../../Assets/Images/donate QR.jpg";
+import { Link } from "react-router-dom";
 
 
 //modal
@@ -210,8 +211,9 @@ const Home = () => {
             </Card>
           </Col>
         </Row>
-        
+        <Link to="/our-team">
         <StyledBtn variant="contained">Know More About Us</StyledBtn>
+        </Link>
       </section>
       <div className="seperator"></div>
       <section className="init">

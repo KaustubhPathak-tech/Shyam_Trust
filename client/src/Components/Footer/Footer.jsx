@@ -103,6 +103,7 @@ const Footer = () => {
                   type="email"
                   placeholder="Type Your Email"
                   id="subscribe"
+                  autoComplete="off"
                 />
                 <button type="submit" className="favbtn">
                   Subscribe
