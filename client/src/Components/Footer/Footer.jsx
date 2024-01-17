@@ -11,6 +11,7 @@ import {
 import { Card, Col, Row } from "antd";
 
 import { SocialBtn } from "../../Pages/Home/Home";
+import { Link } from "react-router-dom";
 
 const capitalizeText = (text) => text.toUpperCase();
 const Footer = () => {
@@ -23,7 +24,7 @@ const Footer = () => {
     <div>
       <section className="preFooter">
         <div className="Links">
-          <Row gutter={16} style={{maxWidth:"99vw"}}>
+          <Row gutter={16} style={{ maxWidth: "99vw" }}>
             <Col xs={24} sm={6}>
               <Card className="preFooter">
                 <h4>Get Involved</h4>
@@ -35,7 +36,9 @@ const Footer = () => {
                     <a href="">Volunteer</a>
                   </li>
                   <li>
-                    <a href="">Partner</a>
+                    <Link to="/our-team">
+                      Partner
+                    </Link>
                   </li>
                 </ul>
               </Card>
@@ -129,7 +132,10 @@ const Footer = () => {
       </section>
       <section className="footer preFooter">
         <span className="copyRight">
-          <p>© {new Date().getFullYear()} All Rights Reserved. Shyam Trust Bhiwadi</p>
+          <p>
+            © {new Date().getFullYear()} All Rights Reserved. Shyam Trust
+            Bhiwadi
+          </p>
         </span>
         <span className="impLinks">
           <ul type="none" className="linkList">
