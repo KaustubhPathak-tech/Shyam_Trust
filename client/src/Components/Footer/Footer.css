@@ -1,0 +1,104 @@
+.preFooter ul {
+  text-decoration: none;
+}
+
+.preLinks {
+  margin-left: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.preLinks li {
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+  text-align: left;
+}
+
+.preContact {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  background-color: black;
+  color: azure;
+  padding: 2vh 0px;
+}
+
+.impLinks {
+  display: inline-block;
+  width: 40vw;
+  /* border: 4px solid red; */
+
+}
+
+.copyRight {
+  text-align: left;
+  display: inline-block;
+  width: 50vw;
+
+}
+
+.linkList {
+  display: flex;
+  margin-left: 180px;
+}
+
+.linkList li {
+  margin: 0px 10px;
+}
+
+.footer a,
+.preFooter a {
+  color: azure;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+.footer a::after,
+.preFooter a::after {
+  content: "";
+  width: 00%;
+  height: 1px;
+  margin-top: 3px;
+  background: rgb(245, 149, 6);
+  display: block;
+  transition: 0.4s;
+}
+
+.footer a:hover::after,
+.preFooter a:hover::after {
+  width: 100%;
+}
+
+.subscribe {
+  padding: 20px;
+  text-align: center;
+}
+
+.social {
+  padding-left: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.socialBtn {
+  padding-right: 20px;
+}
+
+#subscribe {
+  border: 1px solid #f59505;
+  padding: 10px;
+  width: 210px;
+  border-radius: 0px;
+}
+
+#subscribe:focus {
+  outline: none;
+}
+
+

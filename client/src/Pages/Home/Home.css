@@ -1,0 +1,96 @@
+.seperator{
+    height: 20vh;
+}
+
+
+.preFooter,.Links{
+    color: white;
+    background-color: rgb(112, 112, 112);
+    border-color: rgb(112, 112, 112);
+}
+
+#mainContent{
+    margin-top: 9vh;
+}
+
+.overText{
+    position: static;
+    font-size: 35px;
+}
+
+
+#banner1{
+    height: 70vh;
+    width: 100%;
+    background: url(https://www.samarthanam.org/wp-content/uploads/2022/01/Banner-braille.jpg);
+}
+#banner2{
+    height: 70vh;
+    width: 100%;
+    background: url(https://www.samarthanam.org/wp-content/uploads/2021/09/Samarthanam-education-banner-revised.jpg);
+}
+
+#banner3{
+    height: 70vh;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../Assets/Images/service-3.jpg");
+}
+
+.serviceGallery{
+    text-align: right;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-left: 60vw;
+}
+
+.favbtn{
+    font-size: 15px;
+    border: none;
+    background-color: red;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.favbtn:hover{
+    background-color: rgb(255, 81, 0);
+    color: white;
+}
+
+
+.memImg{
+    border-radius: 5px;
+}
+
+.initImg{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+
+.initImg:hover{
+    transform: scaleX(-1);
+}
+.introCarousel{
+    max-width: 99vw;
+}
+
+.memberDetails{
+    max-width: 98vw;
+}
+
+.init{
+    max-width: 98vw;
+}
