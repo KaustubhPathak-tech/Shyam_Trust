@@ -113,7 +113,7 @@ const options = [
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.antgroup.com"
+        href=""
         className="navLink"
       >
         Skill Development
@@ -126,7 +126,7 @@ const options = [
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.aliyun.com"
+        href=""
         className="navLink"
       >
         Resource Distribution
@@ -139,7 +139,7 @@ const options = [
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.luohanacademy.com"
+        href=""
         className="navLink"
       >
         Health & Nutrition
@@ -155,7 +155,7 @@ const options2 = [
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.antgroup.com"
+        href=""
         className="navLink"
       >
         Volunteer
@@ -168,7 +168,7 @@ const options2 = [
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://www.aliyun.com"
+        href=""
         className="navLink"
       >
         Careers

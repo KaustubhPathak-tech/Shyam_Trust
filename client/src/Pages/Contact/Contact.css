@@ -21,4 +21,13 @@
 
 .map{
     border: none;
+    height: 600;
+    width: 450;
+}
+
+@media (max-width:450px){
+    .map{
+        height: 300;
+        width: 300;
+    }
 }

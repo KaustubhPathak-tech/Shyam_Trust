@@ -8,7 +8,7 @@ import {
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { Card, Col, Row } from "antd";
+import { Card, Col, Collapse, Row } from "antd";
 
 import { SocialBtn } from "../../Pages/Home/Home";
 import { Link } from "react-router-dom";
@@ -98,8 +98,8 @@ const Footer = () => {
         </div>
 
         <div className="subscribe">
-          <Row justify="center" align="middle">
-            <Col xs={12} sm={6}>
+          <Row justify={"space-around"} align={"middle"}>
+            <Col>
               <h1>Subscribe to our Newsletter</h1>
               <form>
                 <input
@@ -113,7 +113,7 @@ const Footer = () => {
                 </button>
               </form>
             </Col>
-            <Col xs={12} sm={6} className="social">
+            <Col>
               <SocialBtn variant="outlined" className="socialBtn">
                 <FontAwesomeIcon icon={faFacebook} />
               </SocialBtn>
