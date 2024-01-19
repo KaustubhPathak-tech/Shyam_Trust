@@ -6,6 +6,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 import mem1 from "../../Assets/Images/partner1.jpg";
 import mem2 from "../../Assets/Images/partner-2.jpg";
+import mem3 from "../../Assets/Images/mahendra.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -50,16 +51,15 @@ const Partner = () => {
           {/* Third Part */}
           <Col xs={24} sm={8}>
             <Card>
-              {/* Add your content for the third part here */}
-              {/* <img
+            <img
                 src={mem3}
                 height="300px"
                 width="200px"
-                alt="mem1"
+                alt="mem3"
                 className="memImg"
-              />{" "} */}
-              <FontAwesomeIcon icon={faUser} size="10x" />
-              <h4>Mrs. Neelam</h4>
+              />{" "}
+              {/* <FontAwesomeIcon icon={faUser} size="10x" /> */}
+              <h4>Dr. Mahendra</h4>
             </Card>
           </Col>
         </Row>

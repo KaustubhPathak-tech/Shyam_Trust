@@ -7,6 +7,8 @@ import Footer from "./Components/Footer/Footer.jsx";
 import About from "./Pages/About/About.jsx";
 import Partner from "./Pages/Partner/Partner.jsx";
 import ScrolltoTop from "./Components/ScrolltoTop.js";
+import Contact from "./Pages/Contact/Contact.jsx";
+import Gallery from "./Pages/Gallery/Gallery.jsx";
 
 const RouteConfig = () => {
   return (
@@ -17,6 +19,8 @@ const RouteConfig = () => {
         <Route exact path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/our-team" element={<Partner />} />
+        <Route path="/contact-us" element={<Contact />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </BrowserRouter>

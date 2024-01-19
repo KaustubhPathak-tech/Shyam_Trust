@@ -1,0 +1,24 @@
+#contact-us{
+    margin-top: 60px;
+}
+
+.row-1{
+    padding: 10px;
+}
+
+
+.contact-1,.contact-2{
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-3{
+    padding: 10px;
+    padding-left: 20vw;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.map{
+    border: none;
+}

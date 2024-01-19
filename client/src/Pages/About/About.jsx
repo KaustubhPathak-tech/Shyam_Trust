@@ -6,24 +6,33 @@ const About = () => {
     <div id="about-us">
       <div className="aboutIntro">
         <p>
-          Shyam Trust is a non-profit organization that works for the welfare of
-          the society. It's a burgeoning non-profit organization established in
-          2023 in the vibrant city of Bhiwadi, Rajasthan, echoes the spirit of
-          Samarthanam Trust in its dedication to empowering the handicapped,
-          underprivileged and marginalized. Founded by the trio of Pravesh,
-          Akhilesh, and Neelam, driven by a shared passion for social justice,
-          Shyam Trust embarks on a promising journey to illuminate the lives of
-          those in need.
+          Shyaam Trust is a non profit Organization based in Bhiwadi, Rajasthan.
+          The main aim of Shyaam Trust is to provide assistance of any kind to
+          the needy people. We provide assistance in the form of food, clothes,
+          education, medical help, etc. We also provide assistance to the people
+          who are in need of blood.
+        </p>
+        <p>
+          We have a team of volunteers who are always ready to help the needy
+          people. We also organize blood donation camps and other events to help
+          the needy people. We also provide assistance to the people who are in
+          need of blood. We have a team of volunteers who are always ready to
+          help the needy people. We also organize blood donation camps and other
+          events to help the needy people. We also provide assistance to the
+          people who are in need of blood. We have a team of volunteers who are
+          always ready to help the needy people. We also organize blood donation
+          camps and other events to help the needy people.
+        </p>
+        <p>
+          Handicapped people , children and other needy people are main focus of
+          assistance by Shyaam Trust . We have a thriving team of Partners and
+          team members who are always ready to help the needy people. Our core
+          value is to provide assistance to the people in end of the queue.
         </p>
 
         <p>
-          While nascent in its years, Shyam Trust draws inspiration from
-          established organizations like Samarthanam, learning from their
-          extensive experience and tailoring their approach to the specific
-          needs of the Bhiwadi community. Just as Samarthanam champions the
-          cause of inclusivity for persons with disabilities, Shyam Trust
-          aspires to bridge the gap for the underprivileged in Bhiwadi,
-          irrespective of their background or limitations.
+          Be the education, skill development, medical assistance of needy
+          people, we are always here to support.
         </p>
       </div>
     </div>

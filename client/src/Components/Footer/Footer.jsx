@@ -49,7 +49,7 @@ const Footer = () => {
                 <h4>Relevant Links</h4>
                 <ul type="none" className="preLinks">
                   <li>
-                    <a href="">Gallery</a>
+                    <Link to="/gallery">Gallery</Link>
                   </li>
                   <li>
                     <a href="">Events</a>
@@ -78,14 +78,14 @@ const Footer = () => {
                 <h4>Contact Us</h4>
                 <ul type="none" className="preLinks preContact">
                   <li>
-                    <a href="mailto:">
+                    <a href="mailto:shyamtrust.info@gmail.com" target="_blank">
                       <SocialBtn variant="outlined">
                         <FontAwesomeIcon icon={faEnvelope} />
                       </SocialBtn>
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+">
+                    <a href="tel:+91-7976456816">
                       <SocialBtn variant="outlined">
                         <FontAwesomeIcon icon={faPhone} />
                       </SocialBtn>
