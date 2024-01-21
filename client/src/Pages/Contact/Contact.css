@@ -21,13 +21,14 @@
 
 .map{
     border: none;
-    height: 600;
-    width: 450;
+    height: 400px;
+    width: 600px;
 }
 
 @media (max-width:450px){
     .map{
-        height: 300;
-        width: 300;
+        margin-left: -50px;
+        height: 300px;
+        width: 300px;
     }
 }
